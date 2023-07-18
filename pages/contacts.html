@@ -1,0 +1,67 @@
+﻿<html>
+<head>
+<title>Напишите нам!</title>
+<link rel="stylesheet" href="../css/style.css">
+<script src="../js/action.js"></script>
+</head>
+<body>
+<nav>
+  <a class="banner">Флоренция</a>
+  <ul class="topmenu">
+    <li><a href="../index.html">Главная страница</a></li>
+    <li><a href="history.html">История</a>
+      <ul class="submenu">
+        <li><a href="historyflorence.html">История Флоренции</a></li>
+        <li><a href="interesting.html">Интересные факты</a></li>
+      </ul>
+    </li>
+    <li><a href="sights.html">Достопримечательности</a>
+      <ul class="submenu">
+        <li><a href="places.html">Знаковые места</a></li>
+        <li><a href="tours.html">Экскурсии</a></li>
+        <li><a href="entertainment.html">Развлечения</a></li>
+      </ul>
+    </li>
+    <li><a href="advice.html">Советы туристам</a>
+      <ul class="submenu">
+        <li><a href="beforejourney.html" class="submenu-link">Подготовка к поездке</a>
+		<ul class="submenu">
+			<li><a href="tickets.html">Покупка билетов</a></li>
+			<li><a href="transport.html">Как добраться</a></li>
+			<li><a href="wheretolive.html">Жильё</a></li>
+			<li><a href="weather.html">Погода</a></li>
+		</ul>
+		</li>
+        <li><a href="shop.html">Шоппинг</a></li>
+        <li><a href="food.html">Питание</a></li>
+      </ul>
+    </li>
+    <li><a href="contacts.html">Контакты</a>
+		<ul class="submenu">
+		<li><a href="contacts.html">Напишите нам!</a></li>
+		<li><a href="questions.html">Викторина</a></li>
+		</ul>
+	</li>
+  </ul>
+</nav>
+<div id="container">
+<h3>Напишите нам!</h3>
+<form class="mainform" >
+    <p class="name">
+    	<input type="text" name="name" value="Имя автора" onblur="if(this.value.length == 0) this.value = 'Имя автора'" onfocus="if(this.value == 'Имя автора') this.value = '' "/>
+        <label for="name">Имя</label>
+    </p>
+    <p class="email">
+    	<input type="text" name="email" value="name@example.com" onblur="if(this.value.length == 0) this.value = 'name@example.com'" onfocus="if(this.value == 'name@example.com') this.value = '' " />
+        <label for="email" >E-Mail</label>
+    </p>
+    <p class="msg">
+    	<textarea name="msg" onblur="if(this.value.length == 0) this.value = 'Текст сообщения'" onfocus="if(this.value == 'Текст сообщения') this.value=''">Текст сообщения</textarea>
+    </p>
+    <p class="send" >
+    	<input type="submit" value="Отправить"  />
+    </p>  
+</form>
+</div>
+</body>
+</html>
