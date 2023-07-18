@@ -1,1 +1,2 @@
 # WebFlorence
+The task of the course project is to create a website dedicated to Florence using HTML, Java-script, CSS. The project contains: a main page with information about the site, articles with information about Florence and tips for visiting it, supported by photos and maps, a page for submitting feedback and questions, and a quiz based on the information that can be obtained through the site.
